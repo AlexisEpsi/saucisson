@@ -1,0 +1,55 @@
+.gridSaucisson {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.card {
+    width: 500px;
+}
+
+.card {
+    width: 350px;
+    border: 2px solid rgba(125, 125, 125, 0.7);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.imageSaucisson {
+    width: 100%;
+}
+
+.utilisateur {
+    padding: 8px;
+    height: 50px;
+}
+
+.imagePP {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pseudo {
+    position: absolute;
+    transform: translateY(50%);
+    padding-left: 10px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating .star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating .star:hover,
+.rating .star:hover ~ .star {
+    color: #ffcc00;
+}
+  
